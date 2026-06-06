@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "forex-trading-bot"
-version = "0.1.0"
-description = "Forex trading bot — pip/lot math, risk-based position sizing and trend strategies. By Viprasol Tech."
+version = "0.2.0"
+description = "Forex trading bot — pip/lot math, risk-based sizing, ATR/trailing stops, trend/breakout/carry strategies, multi-pair portfolio and pip-PnL backtesting. By Viprasol Tech."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
