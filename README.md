@@ -91,7 +91,7 @@ from forex_trading_bot.portfolio import CorrelationPortfolio, run_portfolio_back
 
 pf = CorrelationPortfolio(max_correlation=0.8, max_positions=3)
 out = run_portfolio_backtest(synthetic_pairs(300), portfolio=pf)
-print(out.held)                      # e.g. ['EURUSD', 'USDJPY'] — GBPUSD dropped as correlated
+print(out.held)  # e.g. ['EURUSD', 'USDJPY'] — GBPUSD dropped as correlated
 print(f"{out.aggregate_return_pct:+.2f}%")
 ```
 
